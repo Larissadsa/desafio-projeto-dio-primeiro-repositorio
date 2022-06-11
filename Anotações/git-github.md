@@ -4,7 +4,7 @@
 
 **Git status** - Mostra em que estágio o arquivo está
 
-**Git add * ** - Move da working directory para staged
+**Git add** - Move da working directory para staged
 
 **Git commit -m** - Para comitar
 
