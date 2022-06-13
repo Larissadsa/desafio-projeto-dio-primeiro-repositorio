@@ -30,7 +30,41 @@ Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é ac
 
 
 
+## Css
 
+**solid**: mostra uma borda simples e reta;
+
+**dotted**: são bolinhas com um pequeno espaçamento entre elas;
+
+**dashed**: forma uma linha tracejada.
+
+
+
+**text-transform: uppercase** - Todo o texto em caixa alta.
+
+**text-transform: lowercase** - Todo o texto em caixa baixa.
+
+**text-transform: capitalize** - Todas as primeiras letras das palavras em maiúsculas.
+
+
+
+**text-decoration: underline** - Linha em baixo do texto.
+
+**text-decoration: overline** - Linha acima do texto.
+
+**text-decoration: line-through** - Linha sobre o texto.
+
+
+
+## Estilizando listas
+
+**list-style-type: square**
+
+**list-style-type: upper-roman**
+
+**list-style-type: "\1F44D"** (símbolo)
+
+**list-style-image: url ("rocket.png") ** (para adicionar uma imagem como marcador)
 
 
 
