@@ -83,3 +83,52 @@ Tipos de alinhamento:
 - flex-end: alinhamento dos itens no final.
 - space-between: cria um espaçamento igual entre os elementos.
 - space-around: os espaçamentos do  meio são duas vezes maiores que o inicial e final.
+
+
+
+### Propriedades flex items:
+
+**Flex-grow**
+
+Define a proporcionalidade  de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos. Obs: não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container.
+
+
+
+**Flex-basis**
+
+É a propriedade que estabelece o tamanho inicial do irem antes da distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
+
+- auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do irem.
+- px, %, em,...: são valores exatos previamente definidos.
+- 0: terá relação com a definição do flex-grow.
+
+
+
+**Flex-shrink**
+
+É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+
+
+**Flex**
+
+Esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+
+
+**Order**
+
+Esta propriedade lidará com a ordenação dos itens.
+
+
+
+**Align-self**
+
+É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+- auto: valor padrão, irá respeitar a definição de align-items do container.
+- flex-start: ao início do container.
+- flex-end: ao final do container.
+- center: relativo ao centro de acordo com o eixo (column ou row).
+- stretch: ocupa todo o espaço relativo.
+- baseline: utiliza a linha base da tipografia.
